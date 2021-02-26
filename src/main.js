@@ -12,7 +12,7 @@ import RadialBarExample from "./charts/RadialBarExample";
 import BubbleExample from "./charts/BubbleExample";
 import HeatmapExample from "./charts/HeatmapExample";
 import LineExample from "./charts/LineExample";
-import VueApexCharts from "../public/vue-apexcharts";
+import VueApexCharts from "vue-apexcharts";
 
 Vue.component("apexchart", VueApexCharts);
 
