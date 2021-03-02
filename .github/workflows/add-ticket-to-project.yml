@@ -1,14 +1,15 @@
-name: Add Ticket to Project
+name: Move new issues into Backlog
 
 on:
   issues:
     types: [opened]
+
 jobs:
-  createCard:
+  automate-project-columns:
     runs-on: ubuntu-latest
     steps:
-      - name: Create or Update Project Card
-        uses: peter-evans/create-or-update-project-card@v1
+      - uses: alex-page/github-project-automation-plus@v0.3.0
         with:
-          project-name: Sentiment Analyse
-          column-name: Backlog
+          project: Sentiment Analyse 
+          column: Backlog
+          repo-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
