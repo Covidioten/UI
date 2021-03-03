@@ -1,3 +1,5 @@
+#UI
+For setup instances please use the following command:
 Setup: npm install
-Lokal laufen lassen: npm run serve
-Für Production: npm run build
+To run the instance locally, use: npm run serve
+For production: npm run build
