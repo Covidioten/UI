@@ -8,6 +8,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'LineExample',
   data: function() {
@@ -15,9 +16,17 @@ export default {
       chartOptions: {
         xaxis: {
           type: 'datetime',
-          categories: ['01/01/2003', '02/01/2003','03/01/2003','04/01/2003','05/01/2003','06/01/2003','07/01/2003','08/01/2003'],
+          categories: ['01/01/2020', '02/01/2020','03/01/2020','04/01/2020','05/01/2020','06/01/2020','07/01/2020','08/01/2020',
+                      '09/01/2020','10/01/2020','11/01/2020','12/01/2020'],
+          noData: {
+            text: "Loading..."
+          },
+          title: {
+            text: "Twitter sentiment"
+          }
         },
       },
+      /*
       series: [{
         name: 'Series A',
         data: [30, 40, 45, 50, 49, 60, 70, 91]
@@ -25,10 +34,17 @@ export default {
         name: 'Series B',
         data: [23, 43, 54, 12, 44, 52, 32, 11]
       }]
+      */
+      
+      
+      
+
+
     }
   },
   methods: {
       generateDayWiseTimeSeries(baseval, count, yrange) {
+        /*
         var i = 0;
         var series = [];
         while (i < count) {
@@ -39,9 +55,12 @@ export default {
           baseval += 86400000;
           i++;
         }
+
         return series;
+        */
       },
       updateChart() {
+        /*
         let series = [
             {
             name: 'South',
@@ -66,9 +85,12 @@ export default {
             })
           }
         ]
-
+        
         this.series = series
-      }
+        */
+      },
+
+      
   }
 }
 </script>
