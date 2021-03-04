@@ -26,7 +26,7 @@ export default {
           }
         },
       },
-      /*
+      
       series: [{
         name: 'Series A',
         data: [30, 40, 45, 50, 49, 60, 70, 91]
@@ -34,7 +34,7 @@ export default {
         name: 'Series B',
         data: [23, 43, 54, 12, 44, 52, 32, 11]
       }]
-      */
+      
       
       
       
@@ -44,7 +44,7 @@ export default {
   },
   methods: {
       generateDayWiseTimeSeries(baseval, count, yrange) {
-        /*
+        
         var i = 0;
         var series = [];
         while (i < count) {
@@ -57,10 +57,10 @@ export default {
         }
 
         return series;
-        */
+        
       },
       updateChart() {
-        /*
+        
         let series = [
             {
             name: 'South',
@@ -87,7 +87,7 @@ export default {
         ]
         
         this.series = series
-        */
+        
       },
 
       
