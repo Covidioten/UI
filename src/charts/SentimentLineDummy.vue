@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import twitterDataJoh from "/Users/lukasoberfrank/CodeProjects/basecamp/UI/src/assets/twiDataJoh.json"
 
 export default {
   name: 'SentimentLineDummy',
@@ -28,6 +29,7 @@ export default {
           }
         },
       },
+      
       
       series: [{
           data: [{
@@ -67,8 +69,29 @@ export default {
       
       
   },
+  mounted() {
+    this.loopThroughJson()
+    /*
+    fetch("http://localhost:3000/root")
+    .then(res => res.json())
+    .then(data => this.exampleData = data)
+    .catch(err => console.log(err.message))
+    */
+
+    
+  },
+
+
+
   methods: {
-     
+     loopThroughJson() {
+       
+         console.log(twitterDataJoh.root[0]["2020-01-04"].sentiment)
+         console.log(twitterDataJoh.root[0]["2020-01-04"].self)
+       
+       
+       
+     }
 
       
   }
