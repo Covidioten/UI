@@ -1,7 +1,11 @@
 <template>
   <div id="app">
-
+    <div id="top-bar">
+      
+    </div>    
+    <navigation/>
     <h1>COVID-19 Sentiment Analysis</h1>
+    
 
     <p>
       
@@ -19,6 +23,9 @@
 
 export default {
   name: 'app',
+  components: {
+    
+  }
 }
 </script>
 
