@@ -86,8 +86,8 @@ export default {
   methods: {
      loopThroughJson() {
        
-         console.log(twitterDataJoh.root[0]["2020-01-04"].sentiment)
-         console.log(twitterDataJoh.root[0]["2020-01-04"].self)
+         //console.log(twitterDataJoh.root[0]["2020-01-04"].sentiment)
+         //console.log(twitterDataJoh.root[0]["2020-01-04"].self)
        
        
        
