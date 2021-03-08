@@ -10,7 +10,8 @@
 
     <p>
       
-    <!--<router-link to="/line">Line Chart</router-link>-->
+    <router-link to="/info">Info</router-link>
+    <router-link to="/sentimentLine">chart</router-link>
       
     </p>
     
@@ -18,6 +19,9 @@
     
 
       <router-view></router-view>
+      
+      
+
 
   </div>
   
