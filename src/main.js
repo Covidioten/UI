@@ -6,6 +6,7 @@ import Status from "./components/NavigationBar.vue";
 import VueApexCharts from "vue-apexcharts";
 
 import SentimentLineDummy from "./charts/SentimentLineDummy";
+import InfoSection from "./components/InfoSection";
 
 Vue.component("apexchart", VueApexCharts);
 Vue.component("navigation", Status);
@@ -13,7 +14,10 @@ Vue.use(VueRouter);
 
 // 1. Define route components.
 // These can be imported from other files
-const routes = [{ path: "/sentimentLine", component: SentimentLineDummy }];
+const routes = [
+  { path: "/sentimentLine", component: SentimentLineDummy },
+  { path: "/info", component: InfoSection },
+];
 
 const router = new VueRouter({
   routes: routes,
