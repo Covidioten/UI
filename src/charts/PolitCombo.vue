@@ -2,7 +2,7 @@
   <div class="PolitCombo">
     <apexchart type="line" width="75%" height="400px" :options="chartOptions" :series="series"></apexchart>
     <div>
-       <button @click="updateChart">Update!</button>
+       <!--<button @click="updateChart">Update!</button>-->
     </div>
   </div>
 </template>
@@ -27,6 +27,21 @@ export default {
           },
           
         },
+        yaxis: [
+            {
+                seriesName: 'Political Measurements'
+            },
+            {
+                seriesName: 'Twitter Sentiment',
+                show: false,
+            },
+            {
+                opposite: true,
+                seriesName: 'COVID-19 Cases in Germany'
+            }
+],
+        
+
         plotOptions: {
             bar: {
                 horizontal: false,
@@ -85,7 +100,7 @@ export default {
             style: {
                 
             },
-             onDatasetHover: {
+            onDatasetHover: {
                 highlightDataSeries: true,
             },
            
@@ -119,11 +134,11 @@ export default {
             
             }
         },
-        colors:["#E3001A", "#035afc"],
+        colors:["#E3001A", "#035afc", "#00ff00"],
 
         stroke: {
                 show: true,
-                width: [0, 0],
+                width: [0, 0, 5],
                 opacity: [0, 0]
                 
         },
@@ -199,19 +214,46 @@ export default {
         }, {
             x: "12.04.2020",
             y: 0.31,
-        }]
-      }],
-    
+        }],
+        
+      },
+
+      {
+          name: "COVID-19 Cases in Germany",
+          type: "line",
+          data: [{
+            x: "03.01.2020",
+            y: 149,
+        }, {
+            x: "04.01.2020",
+            y: 65000,
+        }, {
+            x: "05.01.2020",
+            y: 30000,
+        }, {
+            x: "06.01.2020",
+            y: 10000,
+        }, {
+            x: "07.01.2020",
+            y: 7000,
+        }, {
+            x: "08.01.2020",
+            y: 8000,
+        }, {
+            x: "09.02.2020",
+            y: 15000,
+        }, {
+            x: "10.01.2020",
+            y: 27000,
+        }, {  
+            x: "11.01.2020",
+            y: 177000,
+        }, {
+            x: "12.01.2020",
+            y: 309000,
+        }]},
   
-
-
-      
-      
-      
-      
-      
-
-
+      ],
     }
   },
   methods: {
