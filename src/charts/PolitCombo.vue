@@ -92,10 +92,16 @@ export default {
 
             custom: function({series, seriesIndex, dataPointIndex, w, politInfo}) {
             
-            var politInfo = ["heute ist Januar", "es ist februar", "maerz", "april", "mai", "juni"]
-            return '<div class="arrow_box">' +
+            var politInfo = []
+            return '<div class="arrow_box">'  +
+                '<div id="tooltipHead"><span>Datum</span></div>' +
+                '<div><ul>' + 
+                    '<li>Lockdown </li>' +
+                    '<li>Sentiment: ' + series[seriesIndex][dataPointIndex] + '</li>' +
+                    '<li>Date: ' + series [seriesIndex] + '</li>' +
+                '</ul></div>' +
                 '<span>' + politInfo[dataPointIndex] + '</span>' +
-                "<span>" + seriesIndex + "</span>" +
+                '<span>' + seriesIndex + '</span>' +
                 '</div>'
             
   }
@@ -116,34 +122,34 @@ export default {
           name: "Political Measurements",
           type: "line",
           data: [{
-            x: "03.03.2020",
+            x: "03.01.2020",
             y: 0.6,
         }, {
-            x: "04.04.2020",
+            x: "04.01.2020",
             y: 0.4,
         }, {
-            x: "05.04.2020",
+            x: "05.01.2020",
             y: 0.54,
         }, {
-            x: "06.04.2020",
+            x: "06.01.2020",
             y: 0.75,
         }, {
-            x: "07.04.2020",
+            x: "07.01.2020",
             y: 0.78,
         }, {
-            x: "08.04.2020",
+            x: "08.01.2020",
             y: 0.65,
         }, {
-            x: "09.04.2020",
+            x: "09.02.2020",
             y: 0.6,
         }, {
-            x: "10.04.2020",
+            x: "10.01.2020",
             y: 0.69,
         }, {  
-            x: "11.04.2020",
+            x: "11.01.2020",
             y: 0.3,
         }, {
-            x: "12.04.2020",
+            x: "12.01.2020",
             y: 0.31,
         }]},
         {
@@ -181,56 +187,9 @@ export default {
             y: 0.31,
         }]
       }],
-    /*
-    {
-        name: 'Politische Maßnahmen',
-        type: "column",
-        data: [0.68, 0.6, 0.5, 0.56, 0.68, 0.70, 0.72, 0.73, 0.65, 0.67, 0.60, 0.67]
-      }, 
-      {
-        name: 'Sentiment',
-        type: "line",
-        data: [0.68, 0.6, 0.5, 0.56, 0.68, 0.70, 0.72, 0.73, 0.65, 0.67, 0.60, 0.67]
-      }, */
-      
+    
   
 
-      series2: [{
-          name: "Twitter Sentiment",
-
-          data: [{
-            x: "03.03.2020",
-            y: 0.6,
-        }, {
-            x: "04.04.2020",
-            y: 0.4,
-        }, {
-            x: "05.04.2020",
-            y: 0.54,
-        }, {
-            x: "06.04.2020",
-            y: 0.75,
-        }, {
-            x: "07.04.2020",
-            y: 0.78,
-        }, {
-            x: "08.04.2020",
-            y: 0.65,
-        }, {
-            x: "09.04.2020",
-            y: 0.6,
-        }, {
-            x: "10.04.2020",
-            y: 0.69,
-        }, {  
-            x: "11.04.2020",
-            y: 0.3,
-        }, {
-            x: "12.04.2020",
-            y: 0.31,
-        }
-      ]
-    }]
 
       
       

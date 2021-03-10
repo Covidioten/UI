@@ -12,7 +12,6 @@ a {
 .router-link-active {
   color: #fff;
   background: #e3001a;
-
 }
 
 #app {
@@ -43,12 +42,16 @@ h1 {
   border: 5px solid #ddd;
 }
 
-
 .arrow_box {
-  font-size: 50px;
-  background-color: green;
+  padding: 20px 20px;
+  font-size: 28px;
+  background-color: grey;
+  opacity: 100%;
   color: #f74441;
   width: 300px;
   height: 424px;
 }
 
+#tooltipHead {
+  font-size: 32px;
+}
