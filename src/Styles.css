@@ -12,6 +12,7 @@ a {
 .router-link-active {
   color: #fff;
   background: #e3001a;
+
 }
 
 #app {
@@ -42,6 +43,7 @@ h1 {
   border: 5px solid #ddd;
 }
 
+
 .arrow_box {
   font-size: 50px;
   background-color: green;
@@ -49,3 +51,4 @@ h1 {
   width: 300px;
   height: 424px;
 }
+
