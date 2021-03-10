@@ -73,19 +73,30 @@ export default {
         datalabels: {
 
         },
-        
         tooltip: {
+            
+            enabled: true,
             enabledOnSeries: [0],
+            shared: false,
+            intersect: true,
+           
+            
             style: {
                 
+            },
+             onDatasetHover: {
+                highlightDataSeries: true,
             },
 
 
             custom: function({series, seriesIndex, dataPointIndex, w, politInfo}) {
+            
             var politInfo = ["heute ist Januar", "es ist februar", "maerz", "april", "mai", "juni"]
             return '<div class="arrow_box">' +
                 '<span>' + politInfo[dataPointIndex] + '</span>' +
+                "<span>" + seriesIndex + "</span>" +
                 '</div>'
+            
   }
         },
 
