@@ -5,6 +5,8 @@ import VueRouter from "vue-router";
 import VueApexCharts from "vue-apexcharts";
 
 import SentimentLineDummy from "./charts/SentimentLineDummy";
+import ComboChart from "./charts/ComboChart";
+import PolitCombo from "./charts/PolitCombo";
 
 import BarExample from "./charts/BarExample";
 import ColumnExample from "./charts/ColumnExample";
@@ -27,6 +29,8 @@ const routes = [
   { path: "/sentimentLine", component: SentimentLineDummy },
   { path: "/column", component: ColumnExample },
   { path: "/info", component: InfoSection },
+  { path: "/combo", component: ComboChart },
+  { path: "/polit", component: PolitCombo },
 ];
 
 const router = new VueRouter({
