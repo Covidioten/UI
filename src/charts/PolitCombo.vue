@@ -88,23 +88,36 @@ export default {
              onDatasetHover: {
                 highlightDataSeries: true,
             },
+           
 
 
             custom: function({series, seriesIndex, dataPointIndex, w, politInfo}) {
             
-            var politInfo = []
+            var politInfo = [
+                {date: "Maerz", info: "Coronafälle in Deutschland haeufen sich"},
+                {date: "April", info: ""},
+                {date: "Mai", info: "Debatte über Schulöffnungen spitzt sich zu"},
+                {date: "Juni", info: ""},
+                {date: "Juli", info: "Urlaub in Deutschland sehr populär"},
+                {date: "August", info: ""},
+                {date: "September", info: ""},
+                {date: "Oktober", info: ""},
+                {date: "November", info: ""},
+                {date: "Dezember", info: "Neuinfektion auf neuem Höchstand. Die Deutschen fürchten um ihr Weihnachtsfest"}
+            ]
+                
+            
             return '<div class="arrow_box">'  +
-                '<div id="tooltipHead"><span>Datum</span></div>' +
-                '<div><ul>' + 
-                    '<li>Lockdown </li>' +
+                '<div id="tooltipHead"><span>' + politInfo[dataPointIndex].date + '</span></div>' +
+                '<div>Was war los?</div>' +
+                '<div id="info-list"><ul>' + 
                     '<li>Sentiment: ' + series[seriesIndex][dataPointIndex] + '</li>' +
-                    '<li>Date: ' + series [seriesIndex] + '</li>' +
+                    '<li><p>Info: ' + politInfo[dataPointIndex].info + '</p></li>' +
                 '</ul></div>' +
-                '<span>' + politInfo[dataPointIndex] + '</span>' +
-                '<span>' + seriesIndex + '</span>' +
+                
                 '</div>'
             
-  }
+            }
         },
         colors:["#E3001A", "#035afc"],
 
@@ -117,6 +130,7 @@ export default {
         
           
       },
+      
       
       series: [{
           name: "Political Measurements",

@@ -44,14 +44,24 @@ h1 {
 
 .arrow_box {
   padding: 20px 20px;
-  font-size: 28px;
-  background-color: grey;
-  opacity: 100%;
-  color: #f74441;
-  width: 300px;
-  height: 424px;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.016);
+  color: black;
+  width: relative;
+  height: relative;
+}
+.arrow_box * {
+  background-color: rgb(48, 41, 41, 0);
+}
+
+#info-list {
+  padding: 10px;
+  text-align: left;
+  overflow-wrap: break-word;
+  background-color: rgb(48, 41, 41, 0);
 }
 
 #tooltipHead {
   font-size: 32px;
+  background-color: rgb(48, 41, 41, 0);
 }
