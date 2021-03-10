@@ -1,20 +1,20 @@
 <template>
   <div id="app">
     <div id="nav_bar">
-    <!--<header>
+    <header>
       
-        <ul class="nav__links">
-          <li><router-link to="/polit">Home</router-link>"</li>
-          <li><router-link to="/info">Info</router-link></li>
+        <ul>
+          <li><router-link to="/polit">Home</router-link></li>
+          <li id="nav_info"><router-link to="/info">Info</router-link></li>
 
           </ul>
-      </header>-->  
+      </header>
       </div>
     
     <h1>COVID-19 Sentiment Analysis</h1>
     
 
-    <p>
+    <p id="but">
 
 
 

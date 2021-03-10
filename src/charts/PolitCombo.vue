@@ -138,7 +138,8 @@ export default {
         stroke: {
                 show: true,
                 width: [0, 0, 5],
-                opacity: [0, 0]
+                opacity: [0, 0],
+                curve: 'smooth'
                 
         },
         
