@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav_bar">
+    <!--<div id="nav_bar">
     <header>
       
         <ul>
@@ -9,7 +9,7 @@
 
           </ul>
       </header>
-      </div>
+      </div>-->
     
     <h1>COVID-19 Sentiment Analysis</h1>
     

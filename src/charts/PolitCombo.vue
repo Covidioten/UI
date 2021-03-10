@@ -27,7 +27,11 @@ export default {
         },
         yaxis: [
             {
-                seriesName: 'Political Measurements'
+                seriesName: 'Political Measurements',
+                title: {
+                    text: "Twitter Sentiment"
+                },
+                
             },
             {
                 seriesName: 'Twitter Sentiment',
@@ -35,8 +39,13 @@ export default {
             },
             {
                 opposite: true,
-                seriesName: 'COVID-19 Cases in Germany'
-            }
+                seriesName: 'COVID-19 Cases in Germany',
+                title: {
+                    text: "Active COVID-19 Cases in Germany",
+                    rotate: 90
+                },
+            },
+            
         ],
         
 
