@@ -11,6 +11,7 @@ a {
 
 .router-link-active {
   color: #fff;
+
   background: #e3001a;
 }
 

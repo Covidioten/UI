@@ -29,6 +29,7 @@ const routes = [
 const router = new VueRouter({
   routes: routes,
 });
+
 router.replace("/polit");
 
 Vue.config.productionTip = false;
