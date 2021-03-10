@@ -16,14 +16,12 @@ export default {
       chartOptions: {
         xaxis: {
           type: 'datetime',
-          /*
-          categories: ['01/01/2020', '02/01/2020','03/01/2020','04/01/2020','05/01/2020','06/01/2020','07/01/2020','08/01/2020',
-                      '09/01/2020','10/01/2020','11/01/2020','12/01/2020'],*/
+          
           noData: {
             text: "Loading..."
           },
           title: {
-            text: "Twitter sentiment"
+            text: ""
           },
           
         },
@@ -39,7 +37,7 @@ export default {
                 opposite: true,
                 seriesName: 'COVID-19 Cases in Germany'
             }
-],
+        ],
         
 
         plotOptions: {
@@ -54,7 +52,8 @@ export default {
         },
         markers: {
             //colors: ['#2E93fA', "#f0950c"]
-            size: 8,
+            size: [8, 0, 0],
+            enabledOnSeries: [0],
 
             discrete: [{
                 seriesIndex: 0,
@@ -84,7 +83,7 @@ export default {
                 seriesIndex: 0,
                 dataPointIndex: 8,
                 size: 0,
-            }]
+            }, ]
         },
         datalabels: {
 

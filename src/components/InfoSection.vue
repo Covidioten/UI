@@ -1,5 +1,8 @@
 <template>
   <div class="info">
+    <h2>
+      Info
+      </h2>
    
     <div>
        Hi, wir sind die Covidioten und auf dieser Webseite haben wir für dich Twitter-Daten analysiert, 
