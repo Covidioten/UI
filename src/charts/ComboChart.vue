@@ -1,6 +1,6 @@
 <template>
   <div class="example">
-    <apexchart width="75%" height="400px" type="line" :options="chartOptions" :series="series"></apexchart>
+    <apexchart width="500" height="350" :options="chartOptions" :series="series"></apexchart>
     <div>
        <button @click="updateChart">Update!</button>
     </div>
@@ -10,30 +10,53 @@
 <script>
 
 export default {
-  name: 'LineExample',
+  name: 'ComboCharts',
   data: function() {
     return {
       chartOptions: {
-        xaxis: {
-          type: 'datetime',
-          categories: ['01/01/2020', '02/01/2020','03/01/2020','04/01/2020','05/01/2020','06/01/2020','07/01/2020','08/01/2020',
-                      '09/01/2020','10/01/2020','11/01/2020','12/01/2020'],
-          noData: {
-            text: "Loading..."
-          },
-          title: {
-            text: "Twitter sentiment"
-          }
+        
+          chart: {
+          height: 350,
+          type: 'line',
         },
+        stroke: {
+          width: [0, 4]
+        },
+        title: {
+          text: 'Traffic Sources'
+        },
+        dataLabels: {
+          enabled: true,
+          enabledOnSeries: [1]
+        },
+        labels: ['01 Jan 2001', '02 Jan 2001', '03 Jan 2001', '04 Jan 2001', '05 Jan 2001', '06 Jan 2001', '07 Jan 2001', '08 Jan 2001', '09 Jan 2001', '10 Jan 2001', '11 Jan 2001', '12 Jan 2001'],
+        xaxis: {
+          type: 'datetime'
+        },
+        yaxis: [{
+          title: {
+            text: 'Website Blog',
+          },
+        
+        }, {
+          opposite: true,
+          title: {
+            text: 'Social Media'
+          }
+        }]
+        
       },
       
       series: [{
+        type: "line",
         name: 'Series A',
-        data: [30, 40, 45, 50, 49, 60, 70, 91]
+        data: [0.7, 0.6, 0.1, 0.6, 0.7, 0.8, 0.7, 0.75, 0.6, 0.5, 0.4, 0.3]
       }, {
         name: 'Series B',
-        data: [23, 43, 54, 12, 44, 52, 32, 11]
+        type: "line",
+        data: [0.7, 0.6, 0.4, 0.6, 0.7, 0.8, 0.7, 0.75, 0.6, 0.5, 0.4, 0.3]
       }]
+      
       
       
       
