@@ -1,8 +1,15 @@
 <template>
   <div id="app">
-    <div id="top-bar">
+    <div id="nav_bar">
+    <!--<header>
       
-    </div>    
+        <ul class="nav__links">
+          <li><router-link to="/polit">Home</router-link>"</li>
+          <li><router-link to="/info">Info</router-link></li>
+
+          </ul>
+      </header>-->  
+      </div>
     
     <h1>COVID-19 Sentiment Analysis</h1>
     
