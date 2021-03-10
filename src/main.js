@@ -8,25 +8,7 @@ import SentimentLineDummy from "./charts/SentimentLineDummy";
 import ComboChart from "./charts/ComboChart";
 import PolitCombo from "./charts/PolitCombo";
 
-import BarExample from "./charts/BarExample";
 import ColumnExample from "./charts/ColumnExample";
-import ScatterExample from "./charts/ScatterExample";
-import MixedExample from "./charts/MixedExample";
-import DonutExample from "./charts/DonutExample";
-import RadialBarExample from "./charts/RadialBarExample";
-import BubbleExample from "./charts/BubbleExample";
-import HeatmapExample from "./charts/HeatmapExample";
-
-import InfoSection from "./components/InfoSection";
-
-import BarExample from "./charts/BarExample";
-import ColumnExample from "./charts/ColumnExample";
-import ScatterExample from "./charts/ScatterExample";
-import MixedExample from "./charts/MixedExample";
-import DonutExample from "./charts/DonutExample";
-import RadialBarExample from "./charts/RadialBarExample";
-import BubbleExample from "./charts/BubbleExample";
-import HeatmapExample from "./charts/HeatmapExample";
 
 import InfoSection from "./components/InfoSection";
 
@@ -40,10 +22,8 @@ const routes = [
   { path: "/sentimentLine", component: SentimentLineDummy },
   { path: "/column", component: ColumnExample },
   { path: "/info", component: InfoSection },
-
   { path: "/combo", component: ComboChart },
   { path: "/polit", component: PolitCombo },
-
 ];
 
 const router = new VueRouter({
