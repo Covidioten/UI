@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import twitterDataJoh from "/Users/lukasoberfrank/CodeProjects/basecamp/UI/src/assets/twiDataJoh.json"
+
 
 export default {
   name: 'SentimentLineDummy',
