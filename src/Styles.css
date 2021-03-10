@@ -11,7 +11,7 @@ a {
 
 .router-link-active {
   color: #fff;
-  background: #f74441;
+  background: #e3001a;
 }
 
 #app {
@@ -21,6 +21,7 @@ a {
 
 .apexcharts-canvas {
   margin: 0 auto;
+  width: 1000px;
 }
 
 * {
@@ -43,4 +44,8 @@ h1 {
 
 .arrow_box {
   font-size: 50px;
+  background-color: green;
+  color: #f74441;
+  width: 300px;
+  height: 424px;
 }

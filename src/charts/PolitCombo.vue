@@ -1,6 +1,6 @@
 <template>
-  <div class="example">
-    <apexchart type="line" width="500" height="350" :options="chartOptions" :series="series"></apexchart>
+  <div class="PolitCombo">
+    <apexchart type="line" width="75%" height="400px" :options="chartOptions" :series="series"></apexchart>
     <div>
        <button @click="updateChart">Update!</button>
     </div>
@@ -16,9 +16,9 @@ export default {
       chartOptions: {
         xaxis: {
           type: 'datetime',
-          
+          /*
           categories: ['01/01/2020', '02/01/2020','03/01/2020','04/01/2020','05/01/2020','06/01/2020','07/01/2020','08/01/2020',
-                      '09/01/2020','10/01/2020','11/01/2020','12/01/2020'],
+                      '09/01/2020','10/01/2020','11/01/2020','12/01/2020'],*/
           noData: {
             text: "Loading..."
           },
@@ -100,6 +100,7 @@ export default {
             
   }
         },
+        colors:["#E3001A", "#035afc"],
 
         stroke: {
                 show: true,
@@ -107,14 +108,12 @@ export default {
                 opacity: [0, 0]
                 
         },
-        fill: {
-            //colors: ['#2E93fA', "#f0950c"]
-        }
+        
           
       },
       
       series: [{
-          name: "Twitter Sentiment",
+          name: "Political Measurements",
           type: "line",
           data: [{
             x: "03.03.2020",
