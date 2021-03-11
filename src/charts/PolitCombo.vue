@@ -61,7 +61,7 @@ export default {
         },
         markers: {
             //[sentiment line, sentiment columns, covid cases]
-            size: [12, 0, 0],
+            size: [12, 0, 0, 0],
             enabledOnSeries: [0],
 
             discrete: [ {
@@ -150,7 +150,7 @@ export default {
 
         stroke: {
                 show: true,
-                width: [0, 0, 5],
+                width: [0, 0, 5, 3],
                 opacity: [0, 0],
                 curve: 'smooth'
                 
@@ -309,6 +309,41 @@ export default {
         }
         
         ]},
+
+        {
+          name: "Zufriedenheit in Deutschland",
+          type: "line",
+          data: [{
+            x: "03.01.2020",
+            y: 0.6,
+        }, {
+            x: "04.01.2020",
+            y: 0.4,
+        }, {
+            x: "05.01.2020",
+            y: 0.54,
+        }, {
+            x: "06.01.2020",
+            y: 0.75,
+        }, {
+            x: "07.01.2020",
+            y: 0.78,
+        }, {
+            x: "08.01.2020",
+            y: 0.65,
+        }, {
+            x: "09.02.2020",
+            y: 0.6,
+        }, {
+            x: "10.01.2020",
+            y: 0.69,
+        }, {  
+            x: "11.01.2020",
+            y: 0.3,
+        }, {
+            x: "12.01.2020",
+            y: 0.31,
+        }]},
         
   
       ],

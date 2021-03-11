@@ -18,6 +18,10 @@
       Davon haben wir die Tweets des letzten Jahrs in Deutschland gerausgepickt und
       diese mittels Textblob nach dem Sentiment - also der Stimmung - analysiert.<br>
       <br>
+      <br>
+      <p>
+      Die Zufriedenheit in Deutschland und die aktuellen Fallzahlen stammen aus externen Quellen.
+      <br>
       </p>
 
     </div>
@@ -25,7 +29,9 @@
       <h3>Quellen: </h3>
         <ul>
           <li>Aktive Coronafälle: <a href="https://de.statista.com/statistik/daten/studie/1181971/umfrage/aktive-faelle-des-coronavirus-in-deutschland/#professional">statista.de</a></li>
-          
+          <br>
+          <li>Zufriedenheit in Deutschland: Online-Studie "Psychische Wohlbefinden in der aktuellen Krise" 
+            des UKE zitiert aus Spektrum der Wissenschaft "Gehirn und Geist" 4/2021</li>
           </ul>
     </div>
   </div>
