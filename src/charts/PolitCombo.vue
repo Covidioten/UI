@@ -66,6 +66,10 @@ export default {
 
             discrete: [ {
                 seriesIndex: 0,
+                dataPointIndex: 0,
+                size: 0,
+            }, {
+                seriesIndex: 0,
                 dataPointIndex: 1,
                 size: 0,
             }, {
@@ -121,6 +125,8 @@ export default {
             custom: function({series, seriesIndex, dataPointIndex, w, politInfo}) {
             
             var politInfo = [
+                {date: "Januar", info: ""},
+                {date: "Februar", info: ""},
                 {date: "Maerz", info: "Coronafälle in Deutschland haeufen sich"},
                 {date: "April", info: ""},
                 {date: "Mai", info: "Debatte über Schulöffnungen spitzt sich zu"},
