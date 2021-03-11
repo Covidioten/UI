@@ -19,7 +19,7 @@
 
 
       <router-link to="/polit">Politics vs. Sentiment</router-link>
-      <router-link to="/sentimentLine">LineChart</router-link>
+      <!--<router-link to="/sentimentLine">LineChart</router-link>-->
       <router-link to="/info">Info</router-link>
       
 
