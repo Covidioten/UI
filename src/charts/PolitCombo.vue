@@ -86,7 +86,7 @@ export default {
                 size: 0,
             }, {
                 seriesIndex: 0,
-                dataPointIndex: 7,
+                dataPointIndex: 9,
                 size: 0,
             }, {
                 seriesIndex: 0,
@@ -94,7 +94,7 @@ export default {
                 size: 0,
             }, {
                 seriesIndex: 0,
-                dataPointIndex: 11,
+                dataPointIndex: 10,
                 size: 0,
             }, {
                 seriesIndex: 0,
@@ -131,8 +131,8 @@ export default {
                 {date: "April", info: ""},
                 {date: "Mai", info: "Debatte über Schulöffnungen spitzt sich zu"},
                 {date: "Juni", info: ""},
-                {date: "Juli", info: "Urlaub in Deutschland sehr populär"},
-                {date: "August", info: ""},
+                {date: "Juli", info: ""},
+                {date: "August", info: "Urlaub in Deutschland sehr populär"},
                 {date: "September", info: ""},
                 {date: "Oktober", info: ""},
                 {date: "November", info: ""},
