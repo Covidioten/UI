@@ -60,15 +60,11 @@ export default {
             
         },
         markers: {
-            //colors: ['#2E93fA', "#f0950c"]
+            //[sentiment line, sentiment columns, covid cases]
             size: [12, 0, 0],
             enabledOnSeries: [0],
 
-            discrete: [{
-                seriesIndex: 0,
-                dataPointIndex: 0,
-                size: 0,
-            }, {
+            discrete: [ {
                 seriesIndex: 0,
                 dataPointIndex: 1,
                 size: 0,
