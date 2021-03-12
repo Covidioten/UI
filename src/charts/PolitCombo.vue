@@ -126,27 +126,26 @@ export default {
 
           custom: function({ series, seriesIndex, dataPointIndex, politInfo }) {
             politInfo = [
-              { date: "Januar", info: "" },
-              { date: "Februar", info: "Angesichts der Entwicklung in Italien rechnet Bundesgesundheitsminister Jens Spahn damit, dass sich das Coronavirus auch in Deutschland ausbreiten kann." },
+              { date: "Januar", info: "Bundeswehr holt Deutsche aus Wuhan" },
+              { date: "Februar", info: "Erste Europäer sterben an Virus" },
               {
                 date: "Maerz",
-                info: "Der gemeinsame Krisenstab des BMI und BMG empfiehlt nach seiner fünften Sitzung die Absage aller Großveranstaltungen mit mehr als 1.000 erwarteten Teilnehmern.",
+                info: "Erster Deutscher mit Coivd-19 stirbt. Schulen und Kitas schließen. DAX rutscht weiter ab. Geschäfte schließen.",
               },
-              { date: "April", info: "Auf der Pressekonferenz nach der Kabinettssitzung betonte Spahn, dass medizinische Masken Ärzten und Pflegekräften vorbehalten bleiben müssten. Daneben könne das Tragen beispielsweise einer selbst genähten Stoffmaske einen Unterschied machen, um andere vor einer Infektion zu schützen." },
+              { date: "April", info: "Kontaktsperren verlängert. Schutzmaßnahmen wirken. Mehr als 100.00 infizierte bundesweit. Läden öffnen wieder." },
               {
-                date: "Mai",
-                info: "Debatte über Schulöffnungen spitzt sich zu",
+                date: "Mai", info: "Bund und Länder einigen sich auf Lockerungen.",
               },
-              { date: "Juni", info: "" },
-              { date: "Juli", info: "" },
-              { date: "August", info: "Urlaub in Deutschland sehr populär" },
-              { date: "September", info: "" },
-              { date: "Oktober", info: "" },
-              { date: "November", info: "" },
+              { date: "Juni", info: "Arbeitslosigkeit steigt. Koalition verabschiedet Konjunkturpaket. Urlauber dürfen wieder nach Dänemark." },
+              { date: "Juli", info: "Keine aktiven Corona-Infektionen mehr in MV." },
+              { date: "August", info: "Hitzewelle sorgt für überfüllte Strände. Bund und Länger einigen sich auf neue Maßnahmen." },
+              { date: "September", info: "Auch im September 2020 steigen die Zahlen bei den Corona-Neuinfektionen. Weitere Lockerungen werden daher verschoben." },
+              { date: "Oktober", info: "Am Ende des Monats beschließen Bund und Länder neue weitreichende Einschränkungen für die Bürger - ein Teil-Lockdown." },
+              { date: "November", info: "Der zweite Teil-Lockdown mit Kontaktbeschränkungen und Schließungen in Gastronomie und Kultur beginnt." },
               {
                 date: "Dezember",
                 info:
-                  "Neuinfektion auf neuem Höchstand. Die Deutschen fürchten um ihr Weihnachtsfest",
+                  "Angesichts stark steigender Infektionszahlen kommt es Mitte des Monats zum zweiten harten Lockdown in Deutschland.",
               },
             ];
 
