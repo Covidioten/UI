@@ -22,6 +22,7 @@
       <p>
       Die Zufriedenheit in Deutschland und die aktuellen Fallzahlen stammen aus externen Quellen.
       <br>
+      <br>
       </p>
 
     </div>

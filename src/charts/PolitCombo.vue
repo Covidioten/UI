@@ -270,8 +270,8 @@ export default {
       }).then((response) => {
         this.series = [
           {
-            type: "column",
-            name: "Twitter-sentiment",
+            type: "line",
+            name: "Political Measurements",
             data: response.data,
           },
               /*
