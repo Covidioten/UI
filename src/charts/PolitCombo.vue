@@ -42,10 +42,7 @@ export default {
             seriesName: "Twitter Sentiment",
             show: false,
           },
-          { 
-              seriesName: "Zufriedenheit in Deutschland",
-              show: false,
-          },
+          
           {
             opposite: true,
             seriesName: "COVID-19 Cases in Germany",
@@ -53,6 +50,10 @@ export default {
               text: "Active COVID-19 Cases in Germany",
               rotate: 90,
             },
+          },
+          { 
+              seriesName: "Zufriedenheit in Deutschland",
+              show: false,
           },
         ],
 
