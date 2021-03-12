@@ -127,12 +127,12 @@ export default {
           custom: function({ series, seriesIndex, dataPointIndex, politInfo }) {
             politInfo = [
               { date: "Januar", info: "" },
-              { date: "Februar", info: "" },
+              { date: "Februar", info: "Angesichts der Entwicklung in Italien rechnet Bundesgesundheitsminister Jens Spahn damit, dass sich das Coronavirus auch in Deutschland ausbreiten kann." },
               {
                 date: "Maerz",
-                info: "Coronafälle in Deutschland haeufen sich",
+                info: "Der gemeinsame Krisenstab des BMI und BMG empfiehlt nach seiner fünften Sitzung die Absage aller Großveranstaltungen mit mehr als 1.000 erwarteten Teilnehmern.",
               },
-              { date: "April", info: "" },
+              { date: "April", info: "Auf der Pressekonferenz nach der Kabinettssitzung betonte Spahn, dass medizinische Masken Ärzten und Pflegekräften vorbehalten bleiben müssten. Daneben könne das Tragen beispielsweise einer selbst genähten Stoffmaske einen Unterschied machen, um andere vor einer Infektion zu schützen." },
               {
                 date: "Mai",
                 info: "Debatte über Schulöffnungen spitzt sich zu",
