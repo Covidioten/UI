@@ -33,7 +33,7 @@ export default {
         },
         yaxis: [
           {
-            seriesName: "Political Measurements",
+            seriesName: "Political Measures",
             title: {
               text: "Twitter Sentiment",
             },
@@ -276,7 +276,7 @@ export default {
         this.series = [
           {
             type: "line",
-            name: "Political Measurements",
+            name: "Political Measures",
             data: response.data,
           },
               /*
