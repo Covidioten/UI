@@ -42,6 +42,10 @@ export default {
             seriesName: "Twitter Sentiment",
             show: false,
           },
+          { 
+              seriesName: "Zufriedenheit in Deutschland",
+              show: false,
+          },
           {
             opposite: true,
             seriesName: "COVID-19 Cases in Germany",
