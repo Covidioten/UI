@@ -19,6 +19,7 @@ jobs:
       - run: |
           git config --global user.name "ProdIsMyDev"
           git config --global user.email "ProdIsMyDev@users.noreply.github.com"
+          echo "module.exports = { publicPath: 'UI' } " > vue.config.js
           npm install
           npm run build
           cd dist
@@ -27,6 +28,7 @@ jobs:
           git commit -m 'deploy'
           git push -f https://ProdIsMyDev:${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}@github.com/$GITHUB_REPOSITORY.git master:gh-pages
           cd -
+          rm vue.config.js
       - name: Build and push Docker images
         uses: docker/build-push-action@v1
         with:
