@@ -266,7 +266,7 @@ export default {
     populateWithData() {
       axios({
         method: "GET",
-        url: "http://covidioten-backend/data-point",
+        url: "https://covidioten-backend/data-point",
       }).then((response) => {
         this.series = [
           {
