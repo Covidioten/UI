@@ -395,7 +395,7 @@ export default {
                 y: 377206,
               },
             ],
-          },
+          },/*
           {
           name: "Overall satisfaction in Germany",
           type: "line",
@@ -417,7 +417,7 @@ export default {
         }, {
             x: "12.01.2020",
             y: 0.62,
-        }]},
+        }]},*/
         ];
       });
     },

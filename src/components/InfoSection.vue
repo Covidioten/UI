@@ -33,6 +33,8 @@
           <br>
           <li>Zufriedenheit in Deutschland: Online-Studie "Psychische Wohlbefinden in der aktuellen Krise" 
             des UKE zitiert aus Spektrum der Wissenschaft "Gehirn und Geist" 4/2021</li>
+            <br>
+            <li>Politische Meldungen: <a href="https://www.ndr.de/nachrichten/info/Corona-Chronologie-Die-Ereignisse-im-Norden,coronachronologieindex100.html">ndr.de</a></li>
           </ul>
     </div>
   </div>
