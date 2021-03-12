@@ -44,7 +44,6 @@ export default {
           },
           { 
               seriesName: "Zufriedenheit in Deutschland",
-              show: false,
           },
           {
             opposite: true,
