@@ -52,7 +52,7 @@ export default {
             },
           },
           { 
-              seriesName: "Zufriedenheit in Deutschland",
+              seriesName: "Overall satisfaction in Germany",
               show: false,
           },
         ],
@@ -135,7 +135,7 @@ export default {
               { date: "Januar", info: "Bundeswehr holt Deutsche aus Wuhan" },
               { date: "Februar", info: "Erste Europäer sterben an Virus" },
               {
-                date: "Maerz",
+                date: "März",
                 info: "Erster Deutscher mit Coivd-19 stirbt. Schulen und Kitas schließen. DAX rutscht weiter ab. Geschäfte schließen.",
               },
               { date: "April", info: "Kontaktsperren verlängert. Schutzmaßnahmen wirken. Mehr als 100.00 infizierte bundesweit. Läden öffnen wieder." },
@@ -160,7 +160,7 @@ export default {
               '<div id="tooltipHead"><span>' +
               politInfo[dataPointIndex].date +
               "</span></div>" +
-              "<div>Was war los?</div>" +
+              "<div><br></div>" +
               '<div id="info-list"><ul>' +
               "<li>Sentiment: " +
               series[seriesIndex][dataPointIndex] +
@@ -240,7 +240,7 @@ export default {
         // },
         /*
         {
-          name: "Zufriedenheit in Deutschland",
+          name: "Overall satisfaction in Germany",
           type: "line",
           data: [{
             x: "05.01.2020",
@@ -397,7 +397,7 @@ export default {
             ],
           },
           {
-          name: "Zufriedenheit in Deutschland",
+          name: "Overall satisfaction in Germany",
           type: "line",
           data: [{
             x: "05.01.2020",
