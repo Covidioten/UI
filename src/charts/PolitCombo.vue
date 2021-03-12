@@ -65,6 +65,7 @@ export default {
           enabledOnSeries: [0],
 
           discrete: [
+              /*
             {
               seriesIndex: 0,
               dataPointIndex: 0,
@@ -109,7 +110,7 @@ export default {
               seriesIndex: 0,
               dataPointIndex: 12,
               size: 0,
-            },
+            },*/
           ],
         },
         datalabels: {},
