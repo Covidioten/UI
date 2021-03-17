@@ -47,7 +47,7 @@ export default {
             opposite: true,
             seriesName: "COVID-19 Fälle in Deutschland",
             title: {
-              text: "Active COVID-19 Fälle in Deutschland",
+              text: "Aktive COVID-19 Fälle in Deutschland",
               rotate: 90,
             },
           },

@@ -11,14 +11,14 @@
       </header>
       </div>-->
     
-    <h1>COVID-19 Sentiment Analysis</h1>
+    <h1>COVID-19 Sentiment Analyse</h1>
     
 
     <p id="but">
 
 
 
-      <router-link to="/polit">Politics vs. Sentiment</router-link>
+      <router-link to="/polit">Politische Entscheidungen vs. Sentiment</router-link>
       <!--<router-link to="/sentimentLine">LineChart</router-link>-->
       <router-link to="/info">Info</router-link>
       
