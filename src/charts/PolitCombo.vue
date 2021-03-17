@@ -33,7 +33,7 @@ export default {
         },
         yaxis: [
           {
-            seriesName: "Political Measures",
+            seriesName: "Politische Maßnahmen",
             title: {
               text: "Twitter Sentiment",
             },
@@ -45,9 +45,9 @@ export default {
           
           {
             opposite: true,
-            seriesName: "COVID-19 Cases in Germany",
+            seriesName: "COVID-19 Fälle in Deutschland",
             title: {
-              text: "Active COVID-19 Cases in Germany",
+              text: "Active COVID-19 Fälle in Deutschland",
               rotate: 90,
             },
           },
@@ -276,7 +276,7 @@ export default {
         this.series = [
           {
             type: "line",
-            name: "Political Measures",
+            name: "Politische Maßnahmen",
             data: response.data,
           },
               /*
@@ -339,7 +339,7 @@ export default {
             data: response.data,
           },
           {
-            name: "COVID-19 Cases in Germany",
+            name: "COVID-19 Fälle in Deutschland",
             type: "line",
             data: [
               {
