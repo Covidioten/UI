@@ -28,7 +28,8 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
-.info {
+.info,
+.sentiment {
   font-size: 20px;
   width: 75%;
   margin: 50px auto;

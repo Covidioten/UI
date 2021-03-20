@@ -4,13 +4,9 @@ import VueRouter from "vue-router";
 
 import VueApexCharts from "vue-apexcharts";
 
-import SentimentLineDummy from "./charts/SentimentLineDummy";
-import ComboChart from "./charts/ComboChart";
 import PolitCombo from "./charts/PolitCombo";
-
-import ColumnExample from "./charts/ColumnExample";
-
 import InfoSection from "./components/InfoSection";
+import SentimentExplained from "./components/SentimentExplained";
 
 Vue.component("apexchart", VueApexCharts);
 
@@ -19,11 +15,9 @@ Vue.use(VueRouter);
 // 1. Define route components.
 // These can be imported from other files
 const routes = [
-  { path: "/sentimentLine", component: SentimentLineDummy },
-  { path: "/column", component: ColumnExample },
   { path: "/info", component: InfoSection },
-  { path: "/combo", component: ComboChart },
   { path: "/polit", component: PolitCombo },
+  { path: "/senti", component: SentimentExplained },
 ];
 
 const router = new VueRouter({
