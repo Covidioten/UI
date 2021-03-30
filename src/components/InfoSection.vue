@@ -15,7 +15,7 @@
       <p id="erklaerung">
       Um das Sentiment zu berechnen, haben wir einen Datensatz des base.camps der Uni Hamburg benutzt,
       der mit Twitterdaten aus den letzten Jahr gefüllt ist.<br>
-      Davon haben wir die Tweets des letzten Jahrs in Deutschland gerausgepickt und
+      Davon haben wir die Tweets des letzten Jahrs in Deutschland heraus gepickt und
       diese mittels Textblob nach dem Sentiment - also der Stimmung - analysiert.<br>
       <br>
       <br>

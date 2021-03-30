@@ -18,6 +18,9 @@
   text-align: center;
 }
 
+body {
+}
+
 .apexcharts-canvas {
   margin: 0 auto;
   width: 1000px;
@@ -29,7 +32,8 @@
 }
 
 .info,
-.sentiment {
+.sentiment,
+.imprint {
   font-size: 20px;
   width: 75%;
   margin: 50px auto;
@@ -114,5 +118,29 @@ h1 {
   font-size: 54px;
   display: inline-block;
   margin-top: 60px;
+  text-align: left;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(164, 164, 164);
+  color: white;
   text-align: center;
+}
+
+.footer h3 {
+  font-size: 14px;
+}
+
+.footer a {
+  color: #222;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+
+.footer .router-link-active {
+  color: #fff;
 }
