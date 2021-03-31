@@ -4,7 +4,7 @@ import VueRouter from "vue-router";
 
 import VueApexCharts from "vue-apexcharts";
 
-import PolitCombo from "./charts/PolitCombo";
+import SentiPolitCovidChart from "./charts/SentiPolitCovidChart";
 import InfoSection from "./components/InfoSection";
 import SentimentExplained from "./components/SentimentExplained";
 import Imprint from "./components/Imprint";
@@ -17,7 +17,7 @@ Vue.use(VueRouter);
 
 const routes = [
   { path: "/info", component: InfoSection },
-  { path: "/polit", component: PolitCombo },
+  { path: "/polit", component: SentiPolitCovidChart },
   { path: "/senti", component: SentimentExplained },
   { path: "/imprint", component: Imprint },
 ];

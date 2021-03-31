@@ -1,5 +1,5 @@
 <template>
-  <div class="PolitCombo">
+  <div class="SentiPolitCovidChart">
     <apexchart
       type="line"
       width="75%"
