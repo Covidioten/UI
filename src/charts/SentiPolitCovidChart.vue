@@ -70,52 +70,7 @@ export default {
           enabledOnSeries: [0],
 
           discrete: [
-              /*
-            {
-              seriesIndex: 0,
-              dataPointIndex: 0,
-              size: 0,
-            },
-            {
-              seriesIndex: 0,
-              dataPointIndex: 1,
-              size: 0,
-            },
-            {
-              seriesIndex: 0,
-              dataPointIndex: 3,
-              size: 0,
-            },
-            {
-              seriesIndex: 0,
-              dataPointIndex: 5,
-              size: 0,
-            },
-            {
-              seriesIndex: 0,
-              dataPointIndex: 6,
-              size: 0,
-            },
-            {
-              seriesIndex: 0,
-              dataPointIndex: 9,
-              size: 0,
-            },
-            {
-              seriesIndex: 0,
-              dataPointIndex: 8,
-              size: 0,
-            },
-            {
-              seriesIndex: 0,
-              dataPointIndex: 10,
-              size: 0,
-            },
-            {
-              seriesIndex: 0,
-              dataPointIndex: 12,
-              size: 0,
-            },*/
+              
           ],
         },
         datalabels: {},
@@ -155,6 +110,8 @@ export default {
               },
             ];
 
+            /* Tooltip written in plain HTML code. In this case, the data of the chosen dataPoint, its index and its info
+            are used as dynamic parameters dependet on the marker the user is hovering over. */
             return (
               '<div class="arrow_box">' +
               '<div id="tooltipHead"><span>' +
@@ -184,83 +141,7 @@ export default {
       },
 
       series: [
-        // {
-        //   name: "Political Measurements",
-        //   type: "line",
-        //   data: [
-        //     {
-        //       x: "01.01.20",
-        //       y: 0.11904,
-        //     },
-        //     {
-        //       x: "02.01.20",
-        //       y: 0.071517241,
-        //     },
-        //     {
-        //       x: "03.01.20",
-        //       y: 0.133793103,
-        //     },
-        //     {
-        //       x: "04.01.20",
-        //       y: 0.077357143,
-        //     },
-        //     {
-        //       x: "05.01.20",
-        //       y: 0.029733333,
-        //     },
-        //     {
-        //       x: "06.01.20",
-        //       y: 0.021333333,
-        //     },
-        //     {
-        //       x: "07.01.20",
-        //       y: 0.015238095,
-        //     },
-        //     {
-        //       x: "08.01.20",
-        //       y: 0.01308,
-        //     },
-        //     {
-        //       x: "09.01.20",
-        //       y: 0.009466667,
-        //     },
-        //     {
-        //       x: "10.01.20",
-        //       y: 0.019645161,
-        //     },
-        //     {
-        //       x: "11.01.20",
-        //       y: 0.0111,
-        //     },
-        //     {
-        //       x: "12.01.20",
-        //       y: 0.01296,
-        //     },
-        //   ],
-        // },
-        /*
-        {
-          name: "Overall satisfaction in Germany",
-          type: "line",
-          data: [{
-            x: "05.01.2020",
-            y: 0.068,
-        }, {
-            x: "06.01.2020",
-            y: 0.07,
-        }, {
-            x: "07.01.2020",
-            y: 0.072,
-        }, {
-            x: "08.01.2020",
-            y: 0.073,
-        }, {
-            x: "11.01.2020",
-            y: 0.067,
-        }, {
-            x: "12.01.2020",
-            y: 0.062,
-        }]},*/
+        
       ],
     };
   },
@@ -279,65 +160,13 @@ export default {
             name: "Politische Maßnahmen",
             data: response.data,
           },
-              /*
-            name: "Political Measurements",
-            type: "line",
-            data: [
-              {
-                x: "01.01.20",
-                y: 0.11904,
-              },
-              {
-                x: "02.01.20",
-                y: 0.071517241,
-              },
-              {
-                x: "03.01.20",
-                y: 0.133793103,
-              },
-              {
-                x: "04.01.20",
-                y: 0.077357143,
-              },
-              {
-                x: "05.01.20",
-                y: 0.029733333,
-              },
-              {
-                x: "06.01.20",
-                y: 0.021333333,
-              },
-              {
-                x: "07.01.20",
-                y: 0.015238095,
-              },
-              {
-                x: "08.01.20",
-                y: 0.01308,
-              },
-              {
-                x: "09.01.20",
-                y: 0.009466667,
-              },
-              {
-                x: "10.01.20",
-                y: 0.019645161,
-              },
-              {
-                x: "11.01.20",
-                y: 0.0111,
-              },
-              {
-                x: "12.01.20",
-                y: 0.01296,
-              },
-            ],
-          },*/
+              
           {
             type: "column",
             name: "Twitter-sentiment",
             data: response.data,
           },
+
           {
             name: "COVID-19 Fälle in Deutschland",
             type: "line",
@@ -395,29 +224,7 @@ export default {
                 y: 377206,
               },
             ],
-          },/*
-          {
-          name: "Overall satisfaction in Germany",
-          type: "line",
-          data: [{
-            x: "05.01.2020",
-            y: 0.68,
-        }, {
-            x: "06.01.2020",
-            y: 0.7,
-        }, {
-            x: "07.01.2020",
-            y: 0.72,
-        }, {
-            x: "08.01.2020",
-            y: 0.73,
-        }, {
-            x: "11.01.2020",
-            y: 0.67,
-        }, {
-            x: "12.01.2020",
-            y: 0.62,
-        }]},*/
+          },
         ];
       });
     },
