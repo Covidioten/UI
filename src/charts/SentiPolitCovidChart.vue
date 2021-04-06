@@ -7,9 +7,6 @@
       :options="chartOptions"
       :series="series"
     ></apexchart>
-    <div>
-      <!--<button @click="updateChart">Update!</button>-->
-    </div>
   </div>
 </template>
 
@@ -65,7 +62,6 @@ export default {
           },
         },
         markers: {
-          //[sentiment line, sentiment columns, covid cases]
           size: [12, 0, 0, 0],
           enabledOnSeries: [0],
 
