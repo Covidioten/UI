@@ -7,7 +7,21 @@ This project analysis Twitter data concerning the sentiment of tweet in Germany 
 * [Technologies] (#technologies)
 * [Setup] (#setup)
 
+## General info
+Info
 
-Setup: npm install
-Lokal laufen lassen: npm run serve
-Für Production: npm run build
+## Technolgies
+MapReduce
+
+## Setup
+
+Run locally:
+```
+$ npm install
+$ npm run serve
+```
+
+Production:
+```
+$ npm run build
+```
