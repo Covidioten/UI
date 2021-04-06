@@ -17,6 +17,8 @@ MapReduce
 
 Run locally:
 ```
+$ git clone https://github.com/Covidioten/UI.git
+$ cd UI
 $ npm install
 $ npm run serve
 ```
