@@ -16,6 +16,7 @@ MapReduce
 ## Setup
 
 Run locally:
+The easiest way to run the program is to install it via npm. Since npm comes with node.js we recommend to download node.js from [here](https://nodejs.org/en/) and install it on your machine.
 ```
 $ git clone https://github.com/Covidioten/UI.git
 $ cd UI
