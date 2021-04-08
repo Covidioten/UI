@@ -11,7 +11,18 @@ This project analysis Twitter data concerning the sentiment of tweet in Germany 
 Info
 
 ## Technolgies
-MapReduce
+### Data and Analytics
+* Apache Hadoop
+* TextBlob
+
+### Backend
+* Flask
+* SQLite
+* Axios
+
+### Frontend
+* [Vue.js](https://vuejs.org/)
+* [ApexCharts.js](https://apexcharts.com/)
 
 ## Setup
 
