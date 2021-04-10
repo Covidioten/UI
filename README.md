@@ -1,36 +1,42 @@
 # Introduction and Goals
 
 This project analysis Twitter data concerning the sentiment of tweet in Germany and compares the data to cases of COVID-19 in Germany. Furthermore, this application displays the political and epidemical situation in Germany in 2020. To just use the application visit [covidioten.app](https://covidioten.app/#/polit).
-This is only the repository where the Frontend is stored. For the data analysis visit the [Sentiment Analysis repository](https://github.com/Covidioten/BAPraktikumSentimentAnalyse). 
+This is only the repository where the Frontend is stored. For the data analysis visit the [Sentiment Analysis repository](https://github.com/Covidioten/BAPraktikumSentimentAnalyse).
 The Webserver Backend is stored in [this repository](https://github.com/Covidioten/WebServer).
 
 # Table of Contents
-* [Technologies](#technologies)
-* [Execution instructions](#Execution-nstructions)
-* [Repo Structure](#Repo-structure)
-* [Architecture Contraints](#Architecture-Contraints)
-* [System Scope and Context](#System-Scope-and-Context)
-* [Solution Strategy](#Solution-Strategy)
-* [How to use the app](#how-to-use-the-app)
+
+- [Technologies](#technologies)
+- [Execution instructions](#Execution-nstructions)
+- [Repo Structure](#Repo-structure)
+- [Architecture Contraints](#Architecture-Contraints)
+- [System Scope and Context](#System-Scope-and-Context)
+- [Solution Strategy](#Solution-Strategy)
+- [How to use the app](#how-to-use-the-app)
 
 # Technolgies
+
 ## Data and Analytics
-* Apache Hadoop
-* TextBlob
+
+- Apache Hadoop
+- TextBlob
 
 ## Backend
-* Flask
-* SQLite
-* Axios
+
+- Flask
+- SQLite
+- Axios
 
 ## Frontend
-* [Vue.js](https://vuejs.org/)
-* [ApexCharts.js](https://apexcharts.com/)
+
+- [Vue.js](https://vuejs.org/)
+- [ApexCharts.js](https://apexcharts.com/)
 
 # Execution Instructions
 
 Run locally:
 The easiest way to run the program is to install it via npm. Since npm comes with node.js we recommend to download node.js from [here](https://nodejs.org/en/) and install it on your machine.
+
 ```
 $ git clone https://github.com/Covidioten/UI.git
 $ cd UI
@@ -39,6 +45,7 @@ $ npm run serve
 ```
 
 Production:
+
 ```
 $ npm run build
 ```
@@ -46,26 +53,25 @@ $ npm run build
 # Repo Structure
 
 public:
+
 - contains index.html to host the app
 
 src:
-- contains all the components and the main.js 
+
+- contains all the components and the main.js
 - assets: contains images
 - charts: contains the charts created via ApexCharts.js
 - components: contains all components that are not charts, e.g., the footer
 
-
-|__public 
+|**public
 |  
-|__src
+|**src
 |  |  
-|  |__assets
+|  |**assets
 |  |  
-|  |__charts
+|  |**charts
 |  |  
-|  |__components
-
-
+|  |\_\_components
 
 # System Scope and Context
 
@@ -149,4 +155,4 @@ The GUI needs to fill the users' need to analyze and understand the possible cor
 
 Visit [covidioten.app](https://covidioten.app/#/polit) to use the already hosted app.
 First, you will see the view of the chart.
-
+![tooltip](src/assets/Tooltips.png)
