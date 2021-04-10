@@ -17,6 +17,8 @@
 </template>
 
 <script>
+
+/* Since the Footer is the only component that is not linked to by the router, it must be imported.*/
 import Footer from './components/Footer.vue'
 
 export default {

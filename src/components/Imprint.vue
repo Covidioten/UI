@@ -1,11 +1,7 @@
 <template>
   <div class="imprint">
 
-    <h2>
-      Impressum
-      </h2>
-
-   
+    <h2>Impressum</h2> 
     <div>
       <p>
        Chris, Hamed, Johannes und Lukas von der Universität Hamburg
@@ -16,8 +12,6 @@
         <li>Mittelweg 177</li>
         <li>20148 Hamburg</li>
       </ul>
-        
-
     </div>
     
   </div>

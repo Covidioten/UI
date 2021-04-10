@@ -17,10 +17,13 @@ export default {
   name: "LineExample",
   data: function() {
     return {
+      /* Within the chartOptions several options can be customized. ApexCharts provides a understandable documentation concerning
+      which options are available for different chart types.*/
       chartOptions: {
         xaxis: {
           type: "datetime",
 
+          //If there are loading problems, this is shown:
           noData: {
             text: "Loading...",
           },
@@ -41,6 +44,7 @@ export default {
           },
           
           {
+            //due to different scales, the right axis has different labels
             opposite: true,
             seriesName: "COVID-19 Fälle in Deutschland",
             title: {
@@ -61,6 +65,7 @@ export default {
             endingShape: "rounded",
           },
         },
+        // in the size array, the index represents each chart
         markers: {
           size: [12, 0, 0, 0],
           enabledOnSeries: [0],
@@ -70,9 +75,10 @@ export default {
           ],
         },
         datalabels: {},
+
         tooltip: {
           enabled: true,
-          enabledOnSeries: [0],
+          enabledOnSeries: [0], //tooltips are only enabled for the first line, which only contains markers
           shared: false,
           intersect: true,
 
@@ -81,6 +87,7 @@ export default {
             highlightDataSeries: true,
           },
 
+          //the political news are stored in the politInfo array. So far, they are inserted manually, this can be improved
           custom: function({ series, seriesIndex, dataPointIndex, politInfo }) {
             politInfo = [
               { date: "Januar", info: "Bundeswehr holt Deutsche aus Wuhan" },
@@ -141,6 +148,7 @@ export default {
       ],
     };
   },
+  // when mounted, the data is loaded via axios
   mounted: function() {
     this.populateWithData();
   },
@@ -148,7 +156,7 @@ export default {
     populateWithData() {
       axios({
         method: "GET",
-        url: "https://api.covidioten.app/data-point",
+        url: "https://api.covidioten.app/data-point", 
       }).then((response) => {
         this.series = [
           {
@@ -163,6 +171,8 @@ export default {
             data: response.data,
           },
 
+
+          //the covid case numbers are stored in the data array for the fourth line graph
           {
             name: "COVID-19 Fälle in Deutschland",
             type: "line",

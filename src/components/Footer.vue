@@ -1,9 +1,6 @@
 <template>
   <div class="footer">
-
     <h3><router-link to="/imprint">Impressum</router-link></h3>
-    
-    
   </div>
 </template>
 
