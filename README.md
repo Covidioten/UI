@@ -161,4 +161,9 @@ First, you will see the view of the chart. When you are hovering over the red ma
 ![tooltip](src/assets/Tooltips.png)
 
 <br />
-You can use the buttons to switch between views. Check out the sentiment explanation to understand what sentiment is. The info view gives some information about the authors of this repository.
+ApexCharts allows you to switch off different lines by clicking on the label below the chart.
+
+![switches](src/assets/Disabled_Covid.png)
+
+<br />
+Furthermore, you can use the buttons to switch between views. Check out the sentiment explanation to understand what sentiment is. The info view gives some information about the authors of this repository.
