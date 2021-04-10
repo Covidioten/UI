@@ -155,15 +155,17 @@ The GUI needs to fill the users' need to analyze and understand the possible cor
 
 Visit [covidioten.app](https://covidioten.app/#/polit) to use the already hosted app.<br />
 First, you will see the view of the chart. When you are hovering over the red markers a so-called tooltip opens up which shows information about the sentiment of this month and about political news and measures during this month in Germany.
-
-#### Tooltips
+<br />
+<br />
 
 ![tooltip](src/assets/Tooltips.png)
 
 <br />
 ApexCharts allows you to switch off different lines by clicking on the label below the chart.
+<br />
 
 ![switches](src/assets/Disabled_Covid.png)
 
+<br />
 <br />
 Furthermore, you can use the buttons to switch between views. Check out the sentiment explanation to understand what sentiment is. The info view gives some information about the authors of this repository.
