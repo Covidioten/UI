@@ -163,9 +163,9 @@ First, you will see the view of the chart. When you are hovering over the red ma
 <br />
 ApexCharts allows you to switch off different lines by clicking on the label below the chart.
 <br />
+<br />
 
 ![switches](src/assets/Disabled_Covid.png)
 
-<br />
 <br />
 Furthermore, you can use the buttons to switch between views. Check out the sentiment explanation to understand what sentiment is. The info view gives some information about the authors of this repository.
