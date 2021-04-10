@@ -4,7 +4,7 @@ This project analysis Twitter data concerning the sentiment of tweet in Germany 
 This is only the repository where the Frontend is stored. For the data analysis visit the [Sentiment Analysis repository](https://github.com/Covidioten/BAPraktikumSentimentAnalyse). 
 The Webserver Backend is stored in [this repository](https://github.com/Covidioten/WebServer).
 
-# Table of Contens
+# Table of Contents
 * [Technologies](#technologies)
 * [Execution instructions](#Execution-nstructions)
 * [Repo Structure](#Repo-structure)
