@@ -11,6 +11,7 @@ The Webserver Backend is stored in [this repository](https://github.com/Covidiot
 * [Architecture Contraints](#Architecture-Contraints)
 * [System Scope and Context](#System-Scope-and-Context)
 * [Solution Strategy](#Solution-Strategy)
+* [How to use the app](#how-to-use-the-app)
 
 # Technolgies
 ## Data and Analytics
@@ -143,3 +144,9 @@ The data for these calculations is included in the structure aswell
 # Solution Strategy
 
 The GUI needs to fill the users' need to analyze and understand the possible correlation between the sentiment on Twitter and the number of COVID-19 cases in Germany. Therefore, it needs a visualization of the data and an explanation of the data and the term "sentiment".
+
+# How to use the app
+
+Visit [covidioten.app](https://covidioten.app/#/polit) to use the already hosted app.
+First, you will see the view of the chart.
+
