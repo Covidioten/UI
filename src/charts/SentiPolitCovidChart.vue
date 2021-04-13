@@ -69,12 +69,7 @@ export default {
         markers: {
           size: [12, 0, 0, 0],
           enabledOnSeries: [0],
-
-          discrete: [
-              
-          ],
         },
-        datalabels: {},
 
         tooltip: {
           enabled: true,
@@ -92,44 +87,29 @@ export default {
             politInfo = [
               { date: "Januar", info: "Bundeswehr holt Deutsche aus Wuhan" },
               { date: "Februar", info: "Erste Europäer sterben an Virus" },
-              {
-                date: "März",
-                info: "Erster Deutscher mit Coivd-19 stirbt. Schulen und Kitas schließen. DAX rutscht weiter ab. Geschäfte schließen.",
-              },
+              { date: "März", info: "Erster Deutscher mit Coivd-19 stirbt. Schulen und Kitas schließen. DAX rutscht weiter ab. Geschäfte schließen." },
               { date: "April", info: "Kontaktsperren verlängert. Schutzmaßnahmen wirken. Mehr als 100.00 infizierte bundesweit. Läden öffnen wieder." },
-              {
-                date: "Mai", info: "Bund und Länder einigen sich auf Lockerungen.",
-              },
+              { date: "Mai", info: "Bund und Länder einigen sich auf Lockerungen." },
               { date: "Juni", info: "Arbeitslosigkeit steigt. Koalition verabschiedet Konjunkturpaket. Urlauber dürfen wieder nach Dänemark." },
               { date: "Juli", info: "Keine aktiven Corona-Infektionen mehr in MV." },
               { date: "August", info: "Hitzewelle sorgt für überfüllte Strände. Bund und Länger einigen sich auf neue Maßnahmen." },
               { date: "September", info: "Auch im September 2020 steigen die Zahlen bei den Corona-Neuinfektionen. Weitere Lockerungen werden daher verschoben." },
               { date: "Oktober", info: "Am Ende des Monats beschließen Bund und Länder neue weitreichende Einschränkungen für die Bürger - ein Teil-Lockdown." },
               { date: "November", info: "Der zweite Teil-Lockdown mit Kontaktbeschränkungen und Schließungen in Gastronomie und Kultur beginnt." },
-              {
-                date: "Dezember",
-                info:
-                  "Angesichts stark steigender Infektionszahlen kommt es Mitte des Monats zum zweiten harten Lockdown in Deutschland.",
-              },
+              { date: "Dezember", info: "Angesichts stark steigender Infektionszahlen kommt es Mitte des Monats zum zweiten harten Lockdown in Deutschland." },
             ];
 
             /* Tooltip written in plain HTML code. In this case, the data of the chosen dataPoint, its index and its info
             are used as dynamic parameters dependet on the marker the user is hovering over. */
             return (
               '<div class="arrow_box">' +
-              '<div id="tooltipHead"><span>' +
-              politInfo[dataPointIndex].date +
-              "</span></div>" +
-              "<div><br></div>" +
+              '<div id="tooltipHead"><span>' + politInfo[dataPointIndex].date + '</span></div>' +
+              '<div><br></div>' +
               '<div id="info-list"><ul>' +
-              "<li>Sentiment: " +
-              series[seriesIndex][dataPointIndex] +
-              "</li>" +
-              "<li><p>Info: " +
-              politInfo[dataPointIndex].info +
-              "</p></li>" +
-              "</ul></div>" +
-              "</div>"
+                '<li>Sentiment: ' + series[seriesIndex][dataPointIndex] + '</li>' +
+                '<li><p>Info: ' + politInfo[dataPointIndex].info + '</p></li>' +
+              '</ul></div>' +
+              '</div>'
             );
           },
         },

@@ -3,6 +3,7 @@
 This project analysis Twitter data concerning the sentiment of tweet in Germany and compares the data to cases of COVID-19 in Germany. Furthermore, this application displays the political and epidemical situation in Germany in 2020. To just use the application visit [covidioten.app](https://covidioten.app/#/polit).
 This is only the repository where the Frontend is stored. For the data analysis visit the [Sentiment Analysis repository](https://github.com/Covidioten/BAPraktikumSentimentAnalyse).
 The Webserver Backend is stored in [this repository](https://github.com/Covidioten/WebServer).
+The app mainly focus on German-speaking users. Thus, the explanations and labels are in German.
 
 # Table of Contents
 

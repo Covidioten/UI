@@ -1,11 +1,8 @@
 <template>
   <div class="sentiment">
 
-    <h2>
-      Was bedeutet Sentiment?
-      </h2>
+    <h2>Was bedeutet Sentiment?</h2>
 
-   
     <div>
       <p>
       Das Sentiment (englisch für "Stimmung") beschreibt die Polarität eines Textes zwischen -1.0 und 1.0. <br>
@@ -16,11 +13,10 @@
       - also eher negativ. <br>
       Der Text ""<i>I love university</i>" hat hingegen ein Sentiment von <b>0.5</b>.
       </p>
-
     </div>
-  <div>
-  <p>Quelle: https://themoderatevoice.com/humiliate-by-twitter-be-humiliated-by-twitter/</p>
-  </div>
+    <div>
+    <p>Quelle: https://themoderatevoice.com/humiliate-by-twitter-be-humiliated-by-twitter/</p>
+    </div>
   </div>
   
 </template>
