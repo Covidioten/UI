@@ -9,7 +9,7 @@
       -1.0 entspricht hierbei einer sehr negativen Stimmung und 1.0 einer sehr positiven.
       </p>
       <img id="trump" alt="trump tweet saturday night live" :src="require('../assets/trump_saturday_night.jpg' )">
-      <p>Für diese Tweet wurde mit TextBlob (einer Library für Sentiment-Analysen) ein Sentiment von <b>-0.171</b> ermittelt 
+      <p>Für diesen Tweet wurde mit TextBlob (einer Library für Sentiment-Analysen) ein Sentiment von <b>-0.171</b> ermittelt 
       - also eher negativ. <br>
       Der Text ""<i>I love university</i>" hat hingegen ein Sentiment von <b>0.5</b>.
       </p>
