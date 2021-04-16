@@ -64,6 +64,8 @@ src:
 - charts: contains the charts created via ApexCharts.js
 - components: contains all components that are not charts, e.g., the footer
 
+
+
 |__public  
 |  
 |__src
