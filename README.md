@@ -53,15 +53,26 @@ $ npm run build
 
 # Repo Structure
 
-|__example  
+public:
+
+- contains index.html to host the app
+
+src:
+
+- contains all the components and the main.js
+- assets: contains images
+- charts: contains the charts created via ApexCharts.js
+- components: contains all components that are not charts, e.g., the footer
+
+|__public  
 |  
-|__sentiment_analysis  
+|__src
 |  |  
-|  |__testing  
+|  |__assets 
 |  |  
-|  |__output  
-|  
-|__tests  
+|  |__charts 
+|  |  
+|  |__components   
 
 
 # System Scope and Context
