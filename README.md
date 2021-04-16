@@ -66,14 +66,13 @@ src:
 
 |__public  
 |  
-|__src  
+|__src
 |  |  
-|  |__assets  
+|  |__assets 
 |  |  
-|  |__charts  
+|  |__charts 
 |  |  
-|  |__components  
-
+|    |__components  
 
 # System Scope and Context
 
