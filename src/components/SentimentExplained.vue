@@ -11,7 +11,7 @@
       <img id="trump" alt="trump tweet saturday night live" :src="require('../assets/trump_saturday_night.jpg' )">
       <p>Für diesen Tweet wurde mit TextBlob (einer Library für Sentiment-Analysen) ein Sentiment von <b>-0.171</b> ermittelt 
       - also eher negativ. <br>
-      Der Text ""<i>I love university</i>" hat hingegen ein Sentiment von <b>0.5</b>.
+      Der Text "<i>I love university</i>" hat hingegen ein Sentiment von <b>0.5</b>.
       </p>
     </div>
     <div>
