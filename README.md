@@ -72,6 +72,7 @@ src:
 |  |  
 |  |__charts 
 |  |  
+|  |__components 
 
 
 # System Scope and Context
