@@ -81,7 +81,7 @@ src:
 
 ## Business Context
 
-Political decisions have an influence on the sentiment of a country
+Political decisions have an influence on the sentiment of a country.
 To research the impact of these decisions on the sentiment we analyze the correlation between the calculated sentiment and political statements and actions.
 
 „Sie glauben gar nicht, wenn man jeden Tag direkt neben Angela Merkel am Tisch sitzt, verliert man alle Eigenschaften eines bayerischen Löwen. Man wird wirklich zahm.“ (CSU-Chef Horst Seehofer am 12. Januar nach den Sondierungsgesprächen beim Neujahrsempfang der bayerischen Staatsregierung in der Münchner Residenz.)
